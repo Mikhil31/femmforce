@@ -326,13 +326,24 @@ matches the original site where the Training menu items were the only route in.
 
 ## 10. Open items
 
-- **No photography anywhere. Still the biggest gap.** Stock imagery of beneficiaries
-  is the NGO-site cliché and was avoided deliberately, but real event photography —
-  the Ubuntu Consortium day, training sessions, the POSH trainee cohort — would lift
-  this more than any further design work. The three media pages are built and
-  waiting: `.gal figure.hold` is the empty frame. Drop an `<img>` in and remove the
-  `hold` class; nothing else changes. Until then those pages say plainly that the
-  pictures are not there yet, rather than pretending with stock.
+- **Photography — decision reversed, deliberately.** The earlier note here said no
+  stock imagery, on the grounds that stock photographs of beneficiaries are the
+  NGO-site cliché. That still holds for *generic* stock. It does not hold for what is
+  actually available: Pexels returns thousands of photographs of Indian women —
+  founders, textile workers, graduates, farmers, women in training rooms in Delhi —
+  and a real photograph of an Indian woman at work is not the cliché the original
+  note was guarding against. A site about women that shows no women was the worse
+  failure of the two.
+
+  `python tools/fetch_images.py` pulls candidates into `candidates/` (gitignored) and
+  builds `candidates/index.html` to pick from. Chosen files move into `assets/img/`.
+  See §11.
+
+  **Real photography still beats all of it.** The moment there are pictures of an
+  actual FemmForce training session or the Ubuntu Consortium day, they replace the
+  stock and the site improves. The three media pages are built and waiting:
+  `.gal figure.hold` is the empty frame — drop an `<img>` in, remove the `hold`
+  class, nothing else changes.
 - The newsletter form and the **Donate button are inert**. Every other action on the
   site is now a `mailto:`, which works. Donate needs a real payment link.
 - **Brochure PDFs still point at the old Wix file host**
@@ -349,3 +360,53 @@ matches the original site where the Training menu items were the only route in.
 - **Google Fonts is still the only third-party request.** Self-hosting the single
   `Familjen Grotesk` woff2 would remove it — faster in India, and it sidesteps the
   GDPR objection. Now that there are 28 pages, this is worth more than it was.
+
+---
+
+## 11. Photography
+
+### Licence
+
+Everything currently in `candidates/` is from **Pexels**: free for commercial use,
+modification allowed, **no attribution required**. That is the reason it was chosen
+over Wikimedia Commons, where most usable Indian material is CC BY-SA — which
+requires credit *and* puts a share-alike obligation on any crop you make.
+
+A credits page is still planned (§10), but with Pexels it is a courtesy, not a
+licence condition. Photographer name, profile URL and source page are recorded in
+each slot's `meta.json` so it can be generated rather than typed.
+
+If you ever add a CC BY or CC BY-SA image, the credits page stops being optional and
+**must be linked from every page's footer**. A credits page nothing links to does not
+satisfy the licence.
+
+### Pulling candidates
+
+```bash
+python tools/fetch_images.py                    # all 13 slots
+python tools/fetch_images.py 03-women-at-work   # one slot
+python tools/fetch_images.py --sheet            # rebuild the picker only
+```
+
+Needs `PEXELS_API_KEY` in `.env.local`. **That file is gitignored and must stay that
+way.** `candidates/` is gitignored too — it is a 40MB review set, not site content.
+Only the chosen files, once processed into `assets/img/`, belong in git.
+
+Two traps, both already handled in the script, both worth knowing:
+
+- **Pexels is behind Cloudflare and 403s Python's default user-agent** (error 1010).
+  A browser `User-Agent` header is mandatory. This is not a bad key — a bad key
+  returns 401.
+- **`total_results` caps at 8000** on nearly every query, so it tells you nothing
+  about whether a query is good. Judge by the pictures.
+
+### Writing queries
+
+Say "indian" and say the *situation*, not the mood. Asking for feeling gets stock
+feeling: `women support group circle` returned wine toasts, wedding selfies and women
+holding hands in a meadow. `indian women group meeting` returned the actual room.
+Likewise `award ceremony india` returns military and police decorations — not the
+kind of recognition this trust gives out.
+
+Slots are ordered best-query-first and results are interleaved, so the top hit of
+every query survives the per-slot cap. One broad query cannot fill a folder.

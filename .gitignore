@@ -12,3 +12,11 @@ Desktop.ini
 
 # Word lock files
 ~$*.docx
+
+# API keys. Never commit.
+.env
+.env.local
+
+# Downloaded candidate photographs — review set, not shipped.
+# Only the chosen files, once moved into assets/img/, belong in git.
+candidates/
