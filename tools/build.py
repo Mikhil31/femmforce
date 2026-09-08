@@ -225,6 +225,82 @@ HEAD = """<!doctype html>
 """
 
 
+# ── URL layout ──────────────────────────────────────────────────────────
+# Every page is a directory with an index.html, so the URL is /about-us/
+# rather than /about-us.html and the repo root holds one HTML file instead
+# of twenty-nine. GitHub Pages serves a directory's index.html on its own.
+#
+# Pages are still written and linked internally as "about-us.html" — the
+# whole generator speaks slugs. The mapping to a directory, and the rewrite
+# of every href and src into the right number of ../ hops, happens once in
+# document() at write time. Nothing else in this file needs to know.
+ROUTES = {
+    "index.html": "",
+    "about-us.html": "about-us",
+    "our-activities.html": "our-activities",
+    "women-at-business.html": "beneficiaries/women-at-business",
+    "women-at-work.html": "beneficiaries/women-at-work",
+    "women-at-home.html": "beneficiaries/women-at-home",
+    "underprivileged-women.html": "beneficiaries/underprivileged-women",
+    "how-we-do.html": "how-we-do",
+    "our-partners.html": "our-partners",
+    "membership.html": "membership",
+    "training-posh.html": "training/posh",
+    "training-soft-skills.html": "training/soft-skills",
+    "training-it-technical.html": "training/it-technical",
+    "training-career-coaching.html": "training/career-coaching",
+    "training-sales.html": "training/sales",
+    "training-leadership.html": "training/leadership",
+    "training-customised.html": "training/customised",
+    "training-campus-to-corporate.html": "training/campus-to-corporate",
+    "training-train-the-trainers.html": "training/train-the-trainers",
+    "media-videos.html": "media/videos",
+    "media-photos.html": "media/photos",
+    "media-posh-trainers.html": "media/posh-trainers",
+    "brochures-and-forms.html": "brochures-and-forms",
+    "events.html": "events",
+    "event-ubuntu-consortium.html": "events/ubuntu-consortium",
+    "event-femmforce.html": "events/femmforce",
+    "blog.html": "blog",
+    "select.html": "select",
+}
+
+# The blank starting page is developer scaffolding, not site content, so it
+# lives with the generator rather than at the root of the published site.
+TEMPLATE_OUT = "tools/page-template.html"
+
+
+def out_path(slug):
+    if slug == "page-template.html":
+        return TEMPLATE_OUT
+    r = ROUTES[slug]
+    return "index.html" if r == "" else r + "/index.html"
+
+
+# href/src with an optional #fragment. `href="#donate"` has no path part and
+# so is never matched, which is what we want — it stays untouched.
+_LINK = re.compile(r'(href|src)="([^"#]+)(#[^"]*)?"')
+
+
+def relink(html, depth):
+    """Rewrite every internal link for a page sitting `depth` levels down."""
+    up = "../" * depth
+
+    def sub(m):
+        attr, path, frag = m.group(1), m.group(2), m.group(3) or ""
+        if path.startswith(("http://", "https://", "mailto:", "tel:", "data:", "//")):
+            return m.group(0)
+        if path.endswith(".html"):
+            if path not in ROUTES:
+                return m.group(0)
+            r = ROUTES[path]
+            target = "index.html" if r == "" else r + "/"
+            return '%s="%s%s%s"' % (attr, up, target, frag)
+        return '%s="%s%s%s"' % (attr, up, path, frag)
+
+    return _LINK.sub(sub, html)
+
+
 def document(slug, title, desc, active, body, bodycls="", noindex=False):
     cls = ' class="%s"' % bodycls if bodycls else ""
     head = HEAD % {"title": title, "desc": desc, "bodycls": cls}
@@ -233,9 +309,13 @@ def document(slug, title, desc, active, body, bodycls="", noindex=False):
                             '<meta name="robots" content="noindex">\n<link rel="icon"')
     html = (head + masthead(active) + "\n\n" + body.strip() + "\n\n" + FOOTER
             + '\n\n<script src="assets/js/site.js" defer></script>\n</body>\n</html>\n')
-    with io.open(os.path.join(ROOT, slug), "w", encoding="utf-8", newline="\n") as f:
+    rel = out_path(slug)
+    html = relink(html, rel.count("/"))
+    dest = os.path.join(ROOT, rel)
+    os.makedirs(os.path.dirname(dest), exist_ok=True) if os.path.dirname(dest) else None
+    with io.open(dest, "w", encoding="utf-8", newline="\n") as f:
         f.write(html)
-    return slug
+    return rel
 
 
 # ── section helpers ─────────────────────────────────────────────────────
@@ -2050,11 +2130,13 @@ _tpl = (HEAD % {"title": "PAGE TITLE — FemmForce",
         ).replace('<link rel="icon"',
                   '<!-- remove the next line once this becomes a real page -->\n'
                   '<meta name="robots" content="noindex">\n<link rel="icon"')
-with io.open(os.path.join(ROOT, "page-template.html"), "w",
-             encoding="utf-8", newline="\n") as _f:
-    _f.write(_tpl + masthead("") + "\n\n" + TEMPLATE_BODY.strip() + "\n\n" + FOOTER
+_tpl_html = (_tpl + masthead("") + "\n\n" + TEMPLATE_BODY.strip() + "\n\n" + FOOTER
              + '\n\n<script src="assets/js/site.js" defer></script>\n</body>\n</html>\n')
-pages.append("page-template.html")
+_tpl_out = out_path("page-template.html")
+os.makedirs(os.path.join(ROOT, os.path.dirname(_tpl_out)), exist_ok=True)
+with io.open(os.path.join(ROOT, _tpl_out), "w", encoding="utf-8", newline="\n") as _f:
+    _f.write(relink(_tpl_html, _tpl_out.count("/")))
+pages.append(_tpl_out)
 
 
 if __name__ == "__main__":

@@ -12,18 +12,38 @@ Still missing content rather than design: photography (§10).
 
 | Path | What it is |
 |---|---|
-| `tools/build.py` | **Generates every `.html` file at the root.** The masthead and footer live here, once. See §8. |
-| `*.html` (root) | The 27 pages plus `page-template.html`. **Generated output** — committed, and what GitHub Pages actually serves. |
+| `tools/build.py` | **Generates every page.** The masthead, footer and all page copy live here, once. See §8. |
+| `index.html` | The home page, and the only HTML file at the repo root. |
+| `<name>/index.html` | Every other page. A directory per page, so the URL is `/about-us/` and not `/about-us.html`. |
 | `assets/css/site.css` | Every style for the whole site. One file, shared by all pages. |
 | `assets/js/site.js` | Every behaviour for the whole site. One file, shared by all pages. |
+| `assets/img/select/` | Temporary. Thumbnails for the client photo picker (§11). |
 | `.nojekyll` | Required. See §3. |
 | `brand/` | Logo, favicons, social images. Generated — see `brand/README.md`. |
-| `page-template.html` | A blank page in the current house style. Generated too; carries `noindex`. |
-| `_design/superseded-*.html` | Dead earlier versions. Ignore; kept only as history. |
-| `FemmForce-Website-Content.docx` | Full text of all 26 original pages. The copy source. |
+| `tools/page-template.html` | A blank page in the current house style. Generated; carries `noindex`. |
 
-Do not edit `_design/superseded-*`. If two files look like the home page,
-`index.html` is the one that ships.
+**Gitignored working folders** — on disk, deliberately not in the repo:
+
+| Path | What it is |
+|---|---|
+| `docs/` | `FemmForce-Website-Content.docx` (the copy source for all 26 original pages), `_design/` (superseded early versions), and `tools/` (the one-off image-sourcing scripts). |
+| `candidates/` | The 43MB photo review set. |
+| `.env.local` | The Pexels API key. Never commit it. |
+
+### URL layout
+
+Every page is a directory with an `index.html`. That gives clean URLs (`/training/posh/`
+rather than `/training-posh.html`) and leaves one HTML file at the repo root instead of
+twenty-nine.
+
+The generator still speaks flat slugs internally — `"training-posh.html"` everywhere in
+`build.py`. The mapping to a directory lives in one place, `ROUTES`, and `document()`
+rewrites every `href` and `src` at write time into the right number of `../` hops. So a
+link is written once, plainly, and comes out correct whether the page sits at the root
+or two levels down. **Nothing else in the file needs to know how deep a page is** — which
+is the whole point, because getting that wrong by hand is how a nav breaks.
+
+Add a page: add it to `ROUTES`, and the rest follows.
 
 **Edit the HTML or edit the generator — but know which.** Page copy and structure
 live in `tools/build.py`; running it overwrites every root `.html`. If you hand-edit

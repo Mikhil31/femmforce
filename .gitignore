@@ -17,6 +17,11 @@ Desktop.ini
 .env
 .env.local
 
-# Downloaded candidate photographs — review set, not shipped.
-# Only the chosen files, once moved into assets/img/, belong in git.
+# Downloaded candidate photographs — 43MB working set, not shipped.
+# Only chosen files, once resized into assets/img/, belong in git.
 candidates/
+
+# Working documents and one-off scaffolding. Source copy, design history and
+# the image-sourcing scripts live here: needed to build the site, not part of
+# the site. Kept on disk, out of the repo.
+docs/
