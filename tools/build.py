@@ -329,7 +329,8 @@ def cta(heading, lede, buttons):
     <p class="lbl" data-rv="rise">Get in touch</p>
     <h2 data-rv="mask">%s</h2>
     <p class="lede" data-rv="rise">%s</p>
-    <div class="acts" data-rv="rise" style="opacity:1;transform:none">
+    <!-- .acts carries its own arrival, gated on body.ready — no data-rv. -->
+    <div class="acts">
 %s
     </div>
   </div>
