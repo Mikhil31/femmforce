@@ -1,0 +1,14 @@
+# Python — tools/build.py leaves these behind
+__pycache__/
+*.py[cod]
+
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Word lock files
+~$*.docx

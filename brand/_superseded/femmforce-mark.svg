@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="FemmForce">
+  <title>FemmForce</title>
+  <polygon id="wing_root_0" points="236,236 232.6,140.1 260.5,143.2" fill="#EE5D1E"/>
+  <polygon id="wing_root_1" points="236,236 260.5,143.2 286.3,154.2" fill="#F0691F"/>
+  <polygon id="wing_root_2" points="236,236 286.3,154.2 307.8,172.3" fill="#F0691F"/>
+  <polygon id="wing_root_3" points="236,236 307.8,172.3 323.1,195.7" fill="#EE5D1E"/>
+  <polygon id="wing_root_4" points="236,236 323.1,195.7 331.1,222.6" fill="#EE5D1E"/>
+  <polygon id="feather_0_a" points="232.6,140.1 230.1,68.1 260.3,19.4" fill="#F0691F"/>
+  <polygon id="feather_0_b" points="232.6,140.1 260.3,19.4 278.9,73.6" fill="#F5871F"/>
+  <polygon id="feather_0_c" points="232.6,140.1 278.9,73.6 260.5,143.2" fill="#F0691F"/>
+  <polygon id="feather_1_a" points="260.5,143.2 278.9,73.6 321.9,35.6" fill="#F5871F"/>
+  <polygon id="feather_1_b" points="260.5,143.2 321.9,35.6 324,92.9" fill="#F9A21C"/>
+  <polygon id="feather_1_c" points="260.5,143.2 324,92.9 286.3,154.2" fill="#F5871F"/>
+  <polygon id="feather_2_a" points="286.3,154.2 324,92.9 376.1,69" fill="#F9A21C"/>
+  <polygon id="feather_2_b" points="286.3,154.2 376.1,69 361.6,124.5" fill="#F5871F"/>
+  <polygon id="feather_2_c" points="286.3,154.2 361.6,124.5 307.8,172.3" fill="#F9A21C"/>
+  <polygon id="feather_3_a" points="307.8,172.3 361.6,124.5 418.4,116.6" fill="#F5871F"/>
+  <polygon id="feather_3_b" points="307.8,172.3 418.4,116.6 388.5,165.5" fill="#FBB040"/>
+  <polygon id="feather_3_c" points="307.8,172.3 388.5,165.5 323.1,195.7" fill="#F5871F"/>
+  <polygon id="feather_4_a" points="323.1,195.7 388.5,165.5 445.1,174.4" fill="#FBB040"/>
+  <polygon id="feather_4_b" points="323.1,195.7 445.1,174.4 402.4,212.6" fill="#F0691F"/>
+  <polygon id="feather_4_c" points="323.1,195.7 402.4,212.6 331.1,222.6" fill="#FBB040"/>
+  <polygon id="tail_root" points="306,244 366,306 272,308" fill="#EE5D1E"/>
+  <polygon id="tail_upper" points="366,306 412,372 360,380" fill="#F5871F"/>
+  <polygon id="tail_lower" points="366,306 360,380 272,308" fill="#F0691F"/>
+  <polygon id="head_top" points="184,214 256,206 218,262" fill="#D62A16"/>
+  <polygon id="back" points="256,206 306,244 218,262" fill="#E8451D"/>
+  <polygon id="flank" points="306,244 272,308 218,262" fill="#EE5D1E"/>
+  <polygon id="belly" points="272,308 208,314 218,262" fill="#E8451D"/>
+  <polygon id="breast" points="208,314 158,290 218,262" fill="#D62A16"/>
+  <polygon id="throat" points="158,290 184,214 218,262" fill="#C81E14"/>
+  <polygon id="cheek" points="128,244 184,214 158,290 124,266" fill="#C81E14"/>
+  <polygon id="beak" points="30,262 128,244 124,266" fill="#B01310"/>
+  <polygon id="shard_1" points="190,324 220,336 200,362" fill="#D62A16"/>
+  <polygon id="shard_2" points="158,362 184,372 166,398" fill="#C81E14"/>
+  <polygon id="shard_3" points="130,400 152,408 138,430" fill="#C81E14"/>
+  <polygon id="shard_4" points="108,436 124,442 114,458" fill="#B01310"/>
+</svg>
