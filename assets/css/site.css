@@ -679,3 +679,27 @@ footer a:hover{color:var(--tx);padding-left:6px}
   .kv dt{padding-top:.9rem}
   .kv dt:first-child{padding-top:0}
 }
+
+/* ── PICKER — the client-facing photo selection page ────────────────────
+   TEMPORARY. Delete this block, select.html, the .fbot footer link and
+   assets/img/select/ once the photographs have been chosen. */
+.pick{display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,262px),1fr));
+  gap:clamp(10px,1.2vw,18px)}
+.pick figure{margin:0;border:1px solid var(--line);border-radius:14px;
+  overflow:hidden;background:var(--bg-1)}
+.pick img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;
+  transition:transform .8s var(--ease)}
+.pick figure:hover img{transform:scale(1.04)}
+.pick figcaption{padding:.7rem .9rem}
+.pick .code{display:block;font-size:.84rem;font-weight:700;letter-spacing:-.01em;
+  font-variant-numeric:tabular-nums}
+.pick .who{display:block;margin-top:.22rem;font-size:.72rem;color:var(--tx-3)}
+
+/* The footer link to it. Quiet on purpose — this is a working link for one
+   client, not a permanent part of the site. */
+.fbot .quiet{margin-left:auto;color:var(--tx-3);opacity:.62;
+  transition:opacity .3s var(--ease)}
+.fbot .quiet:hover{opacity:1}
+.fbot .quiet a{border-bottom:1px solid var(--line)}
+@media (max-width:700px){.fbot .quiet{margin-left:0}}

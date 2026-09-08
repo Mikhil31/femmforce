@@ -20,6 +20,7 @@ connective sentence written for this build; those are marked  # authored.
 """
 
 import io
+import json
 import os
 import re
 
@@ -196,6 +197,9 @@ FOOTER = """<footer><div class="wrap">
   <div class="fbot">
     <span>&copy; 2026 FemmForce. All rights reserved.</span>
     <span>Registered trust &middot; Bangalore, India</span>
+    <!-- TEMPORARY. The client-facing photo picker. Delete this line,
+         select.html and assets/img/select/ once the photographs are chosen. -->
+    <span class="quiet"><a href="select.html">Choose photographs</a></span>
   </div>
 </div></footer>"""
 
@@ -221,10 +225,13 @@ HEAD = """<!doctype html>
 """
 
 
-def document(slug, title, desc, active, body, bodycls=""):
+def document(slug, title, desc, active, body, bodycls="", noindex=False):
     cls = ' class="%s"' % bodycls if bodycls else ""
-    html = (HEAD % {"title": title, "desc": desc, "bodycls": cls}
-            + masthead(active) + "\n\n" + body.strip() + "\n\n" + FOOTER
+    head = HEAD % {"title": title, "desc": desc, "bodycls": cls}
+    if noindex:
+        head = head.replace('<link rel="icon"',
+                            '<meta name="robots" content="noindex">\n<link rel="icon"')
+    html = (head + masthead(active) + "\n\n" + body.strip() + "\n\n" + FOOTER
             + '\n\n<script src="assets/js/site.js" defer></script>\n</body>\n</html>\n')
     with io.open(os.path.join(ROOT, slug), "w", encoding="utf-8", newline="\n") as f:
         f.write(html)
@@ -1929,6 +1936,80 @@ pages.append(document("blog.html", "Blog — FemmForce",
                       "The FemmForce blog is a members-only section. Join as a member or "
                       "contact the trust directly.",
                       "blog", blog))
+
+
+# ── select.html — the client-facing photo picker ────────────────────────
+# TEMPORARY PAGE. Built from assets/img/select/manifest.json, which
+# tools/build_select.py writes. Once the photographs are chosen, delete this
+# block, the footer link, select.html and assets/img/select/.
+#
+# It is `noindex` and is not in the nav — the only route in is the small
+# footer link, which is the point: the client needs a URL they can open on a
+# phone, not a page that turns up in search results for FemmForce.
+_manifest = os.path.join(ROOT, "assets", "img", "select", "manifest.json")
+if os.path.exists(_manifest):
+    with io.open(_manifest, encoding="utf-8") as _f:
+        _groups = json.load(_f)
+
+    _sections = []
+    for _g in _groups:
+        _figs = []
+        for _im in _g["images"]:
+            _figs.append(
+                '    <figure>\n'
+                '      <img loading="lazy" decoding="async" '
+                'src="assets/img/select/%s" alt="%s">\n'
+                '      <figcaption><span class="code">%s</span>'
+                '<span class="who">%s</span></figcaption>\n'
+                '    </figure>'
+                % (_im["file"],
+                   _im["alt"].replace('"', "&quot;")[:120],
+                   _im["code"],
+                   _im["photographer"]))
+        _sections.append(section(
+            head2(_g["slot"].split("-", 1)[1].replace("-", " "),
+                  _g["purpose"] + ".",
+                  "%d photographs." % len(_g["images"]), width="20ch")
+            + '  <div class="pick">\n%s\n  </div>' % "\n".join(_figs),
+            style=("background:var(--bg-1);border-top:1px solid var(--line)"
+                   if _groups.index(_g) % 2 else "")))
+
+    _n = sum(len(g["images"]) for g in _groups)
+    select_body = "\n\n".join([
+        hero([("Home", "index.html"), ("Choose photographs", None)],
+             ["Choose the", "photographs."],
+             "%d options, grouped by the page each one is for. Note the code under "
+             "any picture you like &mdash; for example <b>03-women-at-work / 07</b> "
+             "&mdash; and send the list back. Around ten is enough to start."
+             % _n),
+        section(head2("How to use this page", "Three things worth knowing.",
+                      "", width="18ch")
+                + cells([
+                    ("Pick by the code",
+                     "<p>The code sits under every photograph. You do not need to "
+                     "save or send the images themselves &mdash; just the codes, in "
+                     "any order, in an email or a message.</p>"),
+                    ("These are previews",
+                     "<p>Every one is shown small and compressed so this page loads "
+                     "quickly on a phone. The versions that go on the site are the "
+                     "full-resolution originals.</p>"),
+                    ("Your own photographs beat all of them",
+                     "<p>If FemmForce has pictures from a real training session, the "
+                     "Ubuntu Consortium day, or any event &mdash; send those instead. "
+                     "A real photograph of the actual work is worth more than any of "
+                     "these.</p>"),
+                ], numbered=False)),
+    ] + _sections + [
+        cta("Send the codes back.",
+            "Any format is fine &mdash; a list, a screenshot, a message. Once the "
+            "codes are in, the photographs go onto the site.",
+            [(mailto("FemmForce website — chosen photographs"), "Email the list")]),
+    ])
+
+    pages.append(document(
+        "select.html", "Choose photographs — FemmForce",
+        "Pick the photographs for the FemmForce website.",
+        "", select_body, noindex=True))
 
 
 # ── page-template.html ──────────────────────────────────────────────────

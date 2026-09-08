@@ -1,0 +1,1172 @@
+[
+ {
+  "slot": "01-hero",
+  "purpose": "Home page and page headers",
+  "images": [
+   {
+    "code": "01-hero / 01",
+    "file": "01-hero-01.webp",
+    "alt": "Four women in vibrant traditional attire posing outdoors, showcasing cultural diversity.",
+    "photographer": "Ravinder Ravi",
+    "page": "https://www.pexels.com/photo/cultural-portrait-of-four-women-in-traditional-attire-38428513/"
+   },
+   {
+    "code": "01-hero / 02",
+    "file": "01-hero-02.webp",
+    "alt": "Portrait of a confident businesswoman in professional attire with a friendly smile, arms crossed.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/woman-in-blue-blazer-smiling-7580821/"
+   },
+   {
+    "code": "01-hero / 03",
+    "file": "01-hero-03.webp",
+    "alt": "A heartwarming moment between a mother and daughter dressed in traditional South Asian attire, celebrating outdoors.",
+    "photographer": "Mushtaq Hussain",
+    "page": "https://www.pexels.com/photo/a-woman-and-bride-holdings-hands-13636090/"
+   },
+   {
+    "code": "01-hero / 04",
+    "file": "01-hero-04.webp",
+    "alt": "Smiling worker in blue uniform at desk in a textile factory, showcasing industry professionalism.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/smiling-factory-worker-at-desk-in-textile-industry-31321005/"
+   },
+   {
+    "code": "01-hero / 05",
+    "file": "01-hero-05.webp",
+    "alt": "Group of women in vibrant saris interacting in a lively urban alleyway in India.",
+    "photographer": "Kuntal Biswas",
+    "page": "https://www.pexels.com/photo/women-in-sari-waiting-in-line-to-public-street-tap-17564778/"
+   },
+   {
+    "code": "01-hero / 06",
+    "file": "01-hero-06.webp",
+    "alt": "Joyful women in traditional attire celebrating a cultural festival in Indore.",
+    "photographer": "Rohit Piple",
+    "page": "https://www.pexels.com/photo/cultural-festivity-in-indore-india-34479838/"
+   },
+   {
+    "code": "01-hero / 07",
+    "file": "01-hero-07.webp",
+    "alt": "A smiling businesswoman sitting at her desk with flowers, wearing a blue suit in an office environment.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/woman-inside-her-office-7580948/"
+   },
+   {
+    "code": "01-hero / 08",
+    "file": "01-hero-08.webp",
+    "alt": "Three South Asian women enjoying a cheerful moment outdoors on stone steps in India.",
+    "photographer": "Satyam Pixels",
+    "page": "https://www.pexels.com/photo/joyful-group-of-women-on-stone-steps-outdoors-39322139/"
+   },
+   {
+    "code": "01-hero / 09",
+    "file": "01-hero-09.webp",
+    "alt": "Young professional smiling at her desk in a modern office setting, engaging in computer work.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/smiling-office-worker-at-desk-in-modern-workplace-31112232/"
+   },
+   {
+    "code": "01-hero / 10",
+    "file": "01-hero-10.webp",
+    "alt": "An elegant woman in traditional Indian saree walking on a historical street in Pune, India.",
+    "photographer": "Sourabh Narwade",
+    "page": "https://www.pexels.com/photo/women-walking-crossing-road-in-evening-27139257/"
+   },
+   {
+    "code": "01-hero / 11",
+    "file": "01-hero-11.webp",
+    "alt": "Black and white photo capturing women in traditional attire walking in a city street.",
+    "photographer": "Soubhagya Maharana",
+    "page": "https://www.pexels.com/photo/women-walking-on-street-in-black-and-white-21938192/"
+   },
+   {
+    "code": "01-hero / 12",
+    "file": "01-hero-12.webp",
+    "alt": "Elegant woman wearing a red sari poses confidently against a tree outdoors.",
+    "photographer": "Kacey Inkwell",
+    "page": "https://www.pexels.com/photo/young-woman-in-traditional-red-sari-outdoors-38520226/"
+   }
+  ]
+ },
+ {
+  "slot": "02-women-at-business",
+  "purpose": "Women at Business",
+  "images": [
+   {
+    "code": "02-women-at-business / 01",
+    "file": "02-women-at-business-01.webp",
+    "alt": "Concentrated female florist with dark hair standing in floral shop with tablet near flowers in wrapper while checking order during work",
+    "photographer": "Amina Filkins",
+    "page": "https://www.pexels.com/photo/pensive-woman-near-flowers-in-wrapper-5410081/"
+   },
+   {
+    "code": "02-women-at-business / 02",
+    "file": "02-women-at-business-02.webp",
+    "alt": "Portrait of an elderly Indian woman in traditional sari standing outside a small local shop.",
+    "photographer": "Dev Raj",
+    "page": "https://www.pexels.com/photo/elderly-woman-in-traditional-clothing-11461815/"
+   },
+   {
+    "code": "02-women-at-business / 03",
+    "file": "02-women-at-business-03.webp",
+    "alt": "A street vendor selling bananas from a cart in Bengaluru, India, surrounded by urban greenery.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/street-fruit-vendor-in-bengaluru-india-35114365/"
+   },
+   {
+    "code": "02-women-at-business / 04",
+    "file": "02-women-at-business-04.webp",
+    "alt": "Crop unrecognizable female in black clothes working on modern netbook and stirring cup of fresh aromatic espresso",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/crop-woman-working-on-laptop-and-drinking-coffee-4467670/"
+   },
+   {
+    "code": "02-women-at-business / 05",
+    "file": "02-women-at-business-05.webp",
+    "alt": "Woman checking clothing items on rack in boutique for inventory.",
+    "photographer": "Thirdman",
+    "page": "https://www.pexels.com/photo/woman-in-yellow-dress-looking-at-clothes-8484040/"
+   },
+   {
+    "code": "02-women-at-business / 06",
+    "file": "02-women-at-business-06.webp",
+    "alt": "Woman in vibrant attire selling traditional toys on a street market, showcasing cultural heritage.",
+    "photographer": "Swastik Arora",
+    "page": "https://www.pexels.com/photo/a-woman-selling-toys-on-the-street-12911832/"
+   },
+   {
+    "code": "02-women-at-business / 07",
+    "file": "02-women-at-business-07.webp",
+    "alt": "Smiling barista standing in a stylish café, showcasing entrepreneurial spirit.",
+    "photographer": "Andrea Piacquadio",
+    "page": "https://www.pexels.com/photo/woman-wearing-an-apron-standing-by-the-shelves-3906984/"
+   },
+   {
+    "code": "02-women-at-business / 08",
+    "file": "02-women-at-business-08.webp",
+    "alt": "A woman in traditional attire sits by colorful bangles at a street market in Kolkata, India.",
+    "photographer": "dipankar sinha",
+    "page": "https://www.pexels.com/photo/colorful-bangle-stall-in-kolkata-india-39375131/"
+   },
+   {
+    "code": "02-women-at-business / 09",
+    "file": "02-women-at-business-09.webp",
+    "alt": "Two women selling fruits and vegetables at a vibrant local market.",
+    "photographer": "Swastik Arora",
+    "page": "https://www.pexels.com/photo/woman-in-yellow-and-red-dress-standing-beside-red-plastic-basket-with-fruits-14498242/"
+   },
+   {
+    "code": "02-women-at-business / 10",
+    "file": "02-women-at-business-10.webp",
+    "alt": "Table with laptop and smartphone on background of woman resting and drinking hot beverage during break at home",
+    "photographer": "Vlada Karpovich",
+    "page": "https://www.pexels.com/photo/young-woman-drinking-coffee-in-modern-workspace-4050311/"
+   },
+   {
+    "code": "02-women-at-business / 11",
+    "file": "02-women-at-business-11.webp",
+    "alt": "Businesswoman taking inventory in a clothing store, smiling while writing notes.",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/a-woman-in-white-long-sleeve-shirt-5717839/"
+   },
+   {
+    "code": "02-women-at-business / 12",
+    "file": "02-women-at-business-12.webp",
+    "alt": "An elderly woman selling intricately woven wicker baskets at an outdoor market stall.",
+    "photographer": "Akash Bhadange",
+    "page": "https://www.pexels.com/photo/senior-woman-selling-handmade-wicker-baskets-34878662/"
+   }
+  ]
+ },
+ {
+  "slot": "03-women-at-work",
+  "purpose": "Women at Work",
+  "images": [
+   {
+    "code": "03-women-at-work / 01",
+    "file": "03-women-at-work-01.webp",
+    "alt": "Business professionals discussing documents in a modern office environment.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/people-talking-in-the-office-7580644/"
+   },
+   {
+    "code": "03-women-at-work / 02",
+    "file": "03-women-at-work-02.webp",
+    "alt": "Professional team discussing project ideas in an office setting, featuring diverse employees.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/man-and-woman-talking-to-each-other-7580755/"
+   },
+   {
+    "code": "03-women-at-work / 03",
+    "file": "03-women-at-work-03.webp",
+    "alt": "Smiling female worker in a modern textile factory, showcasing the industrial workspace.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/female-textile-worker-in-modern-factory-setting-31336020/"
+   },
+   {
+    "code": "03-women-at-work / 04",
+    "file": "03-women-at-work-04.webp",
+    "alt": "Confident businesswoman working on her laptop in a modern office setting. Perfect for business themes.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/photo-of-woman-working-at-the-office-8837770/"
+   },
+   {
+    "code": "03-women-at-work / 05",
+    "file": "03-women-at-work-05.webp",
+    "alt": "Scientist in protective gear operates equipment in a modern lab.",
+    "photographer": "Tima Miroshnichenko",
+    "page": "https://www.pexels.com/photo/a-woman-in-white-lab-gown-9574465/"
+   },
+   {
+    "code": "03-women-at-work / 06",
+    "file": "03-women-at-work-06.webp",
+    "alt": "Smiling graduate holding a diploma outdoors in a sunny setting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/a-woman-holding-a-diploma-7713507/"
+   },
+   {
+    "code": "03-women-at-work / 07",
+    "file": "03-women-at-work-07.webp",
+    "alt": "A smiling businesswoman sitting at her desk with flowers, wearing a blue suit in an office environment.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/woman-inside-her-office-7580948/"
+   },
+   {
+    "code": "03-women-at-work / 08",
+    "file": "03-women-at-work-08.webp",
+    "alt": "Business professionals discussing a proposal on a couch, engaged in a collaborative meeting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/man-and-woman-sitting-on-couch-7580935/"
+   },
+   {
+    "code": "03-women-at-work / 09",
+    "file": "03-women-at-work-09.webp",
+    "alt": "Female worker operating machinery in a textile factory, showcasing modern industrial environment.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/smiling-female-worker-in-textile-factory-31336016/"
+   },
+   {
+    "code": "03-women-at-work / 10",
+    "file": "03-women-at-work-10.webp",
+    "alt": "Professional woman focused on work in modern office with marble table and background decoration.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/a-woman-using-laptop-at-the-office-8837767/"
+   },
+   {
+    "code": "03-women-at-work / 11",
+    "file": "03-women-at-work-11.webp",
+    "alt": "African American woman soldering wires with precision, showcasing modern industry and electronics work.",
+    "photographer": "ThisIsEngineering",
+    "page": "https://www.pexels.com/photo/a-woman-with-electronics-19895841/"
+   },
+   {
+    "code": "03-women-at-work / 12",
+    "file": "03-women-at-work-12.webp",
+    "alt": "Smiling graduate holding diploma in a park setting",
+    "photographer": "olia danilevich",
+    "page": "https://www.pexels.com/photo/a-graduate-holding-her-diploma-8093007/"
+   }
+  ]
+ },
+ {
+  "slot": "04-women-at-home",
+  "purpose": "Women at Home",
+  "images": [
+   {
+    "code": "04-women-at-home / 01",
+    "file": "04-women-at-home-01.webp",
+    "alt": "Workers in a textile factory operating sewing machines, showcasing blue collar work.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/textile-factory-workers-operating-sewing-machines-31321013/"
+   },
+   {
+    "code": "04-women-at-home / 02",
+    "file": "04-women-at-home-02.webp",
+    "alt": "A woman using a laptop for remote work indoors, featuring a floral dress and henna design.",
+    "photographer": "Atlantic Ambience",
+    "page": "https://www.pexels.com/photo/woman-using-a-laptop-12498876/"
+   },
+   {
+    "code": "04-women-at-home / 03",
+    "file": "04-women-at-home-03.webp",
+    "alt": "An elderly woman wearing vibrant traditional Indian clothing, sitting on steps outdoors.",
+    "photographer": "Anil  Sharma",
+    "page": "https://www.pexels.com/photo/elderly-woman-in-traditional-indian-attire-on-steps-31848872/"
+   },
+   {
+    "code": "04-women-at-home / 04",
+    "file": "04-women-at-home-04.webp",
+    "alt": "Smiling fashion designer working on a sewing machine with fabric in a contemporary studio.",
+    "photographer": "Gustavo Fring",
+    "page": "https://www.pexels.com/photo/dressmaker-in-front-of-her-sewing-machine-smiling-3984846/"
+   },
+   {
+    "code": "04-women-at-home / 05",
+    "file": "04-women-at-home-05.webp",
+    "alt": "An elderly woman skillfully weaving colorful mats in a busy workshop setting.",
+    "photographer": "Quang Nguyen Vinh",
+    "page": "https://www.pexels.com/photo/elderly-woman-crafting-colorful-woven-mats-indoors-33298391/"
+   },
+   {
+    "code": "04-women-at-home / 06",
+    "file": "04-women-at-home-06.webp",
+    "alt": "Happy female textile worker in factory, operating a sewing machine with stacks of fabric.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/smiling-textile-factory-worker-at-sewing-machine-31030922/"
+   },
+   {
+    "code": "04-women-at-home / 07",
+    "file": "04-women-at-home-07.webp",
+    "alt": "Woman working remotely with a laptop and smartphone in a cozy room near a window.",
+    "photographer": "Atlantic Ambience",
+    "page": "https://www.pexels.com/photo/woman-in-white-tank-top-using-laptop-11569938/"
+   },
+   {
+    "code": "04-women-at-home / 08",
+    "file": "04-women-at-home-08.webp",
+    "alt": "Close-up outdoor portrait of a woman in traditional attire, exuding confidence.",
+    "photographer": "Mike Sangma",
+    "page": "https://www.pexels.com/photo/woman-with-scarf-on-her-head-3920689/"
+   },
+   {
+    "code": "04-women-at-home / 09",
+    "file": "04-women-at-home-09.webp",
+    "alt": "Female designer sewing in a modern studio with fabrics and sewing machine.",
+    "photographer": "Gustavo Fring",
+    "page": "https://www.pexels.com/photo/busy-dressmaker-in-front-of-her-sewing-machine-3984853/"
+   },
+   {
+    "code": "04-women-at-home / 10",
+    "file": "04-women-at-home-10.webp",
+    "alt": "A woman in a creative workspace surrounded by art supplies and plants, exuding creativity and focus.",
+    "photographer": "Andrea Piacquadio",
+    "page": "https://www.pexels.com/photo/woman-in-gray-sweater-sitting-on-chair-3873936/"
+   },
+   {
+    "code": "04-women-at-home / 11",
+    "file": "04-women-at-home-11.webp",
+    "alt": "Smiling female factory worker in a textile factory operating a sewing machine.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/smiling-factory-worker-in-textile-industry-31199567/"
+   },
+   {
+    "code": "04-women-at-home / 12",
+    "file": "04-women-at-home-12.webp",
+    "alt": "A young woman sits at a desk working on a laptop in her home office.",
+    "photographer": "Mikhail Nilov",
+    "page": "https://www.pexels.com/photo/a-woman-studying-at-home-9159669/"
+   }
+  ]
+ },
+ {
+  "slot": "05-underprivileged-women",
+  "purpose": "Underprivileged Women",
+  "images": [
+   {
+    "code": "05-underprivileged-women / 01",
+    "file": "05-underprivileged-women-01.webp",
+    "alt": "Three women farmers standing proud amidst harvested crops in rural India.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmer-in-india-20445215/"
+   },
+   {
+    "code": "05-underprivileged-women / 02",
+    "file": "05-underprivileged-women-02.webp",
+    "alt": "An Indian woman in traditional attire working in a golden rice field, rural scene.",
+    "photographer": "Kamakshi",
+    "page": "https://www.pexels.com/photo/indian-woman-harvesting-in-rice-field-30374620/"
+   },
+   {
+    "code": "05-underprivileged-women / 03",
+    "file": "05-underprivileged-women-03.webp",
+    "alt": "Five women farmers standing in a vibrant green field, showcasing their rural lifestyle.",
+    "photographer": "RASIK MOHAN MUNDA",
+    "page": "https://www.pexels.com/photo/a-group-of-women-standing-in-a-field-28220703/"
+   },
+   {
+    "code": "05-underprivileged-women / 04",
+    "file": "05-underprivileged-women-04.webp",
+    "alt": "South Asian women at a vibrant market in Bhawanipatna, India, highlighting local culture and commerce.",
+    "photographer": "Parij Photography",
+    "page": "https://www.pexels.com/photo/woman-sitting-and-leaning-against-brown-wall-1472895/"
+   },
+   {
+    "code": "05-underprivileged-women / 05",
+    "file": "05-underprivileged-women-05.webp",
+    "alt": "A diverse group gathered for a community meeting in rural Nagpur, India, discussing agriculture.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmers-in-india-20356942/"
+   },
+   {
+    "code": "05-underprivileged-women / 06",
+    "file": "05-underprivileged-women-06.webp",
+    "alt": "Group of Indian farmers showcasing fresh greens at home, Nagpur, India.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmers-in-india-20527456/"
+   },
+   {
+    "code": "05-underprivileged-women / 07",
+    "file": "05-underprivileged-women-07.webp",
+    "alt": "Three women working in a vibrant rice field, harvesting green rice plants.",
+    "photographer": "Bijen Amatya",
+    "page": "https://www.pexels.com/photo/women-harvesting-rice-in-lush-field-36517204/"
+   },
+   {
+    "code": "05-underprivileged-women / 08",
+    "file": "05-underprivileged-women-08.webp",
+    "alt": "Two Indian women farmers harvesting crops in a lush, green rural field.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmers-in-india-20445203/"
+   },
+   {
+    "code": "05-underprivileged-women / 09",
+    "file": "05-underprivileged-women-09.webp",
+    "alt": "Three women in colorful attire walk through a field carrying water containers on their heads.",
+    "photographer": "Mike Sangma",
+    "page": "https://www.pexels.com/photo/women-walking-on-the-field-3920705/"
+   },
+   {
+    "code": "05-underprivileged-women / 10",
+    "file": "05-underprivileged-women-10.webp",
+    "alt": "A lively group of women and children in traditional Rajasthani attire, showcasing vibrant culture and joyful expressions.",
+    "photographer": "Varun Gaba",
+    "page": "https://www.pexels.com/photo/a-group-of-women-in-colorful-traditional-dresses-7437939/"
+   },
+   {
+    "code": "05-underprivileged-women / 11",
+    "file": "05-underprivileged-women-11.webp",
+    "alt": "Two Indian women working in a lush, green farm field under a bright sky, showcasing rural agriculture.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmers-in-india-20344348/"
+   },
+   {
+    "code": "05-underprivileged-women / 12",
+    "file": "05-underprivileged-women-12.webp",
+    "alt": "Two women enjoy a warm evening by the fire in Ghatshila, India.",
+    "photographer": "Swagoto Mondal",
+    "page": "https://www.pexels.com/photo/warm-evening-by-the-fire-in-ghatshila-india-36510485/"
+   }
+  ]
+ },
+ {
+  "slot": "06-training",
+  "purpose": "Training pages",
+  "images": [
+   {
+    "code": "06-training / 01",
+    "file": "06-training-01.webp",
+    "alt": "Participants learn AC repair during a hands-on session in Delhi, India.",
+    "photographer": "Multitech Institute",
+    "page": "https://www.pexels.com/photo/training-session-on-ac-repair-techniques-in-delhi-33925031/"
+   },
+   {
+    "code": "06-training / 02",
+    "file": "06-training-02.webp",
+    "alt": "Students engaged in study at a computer lab, focused on technology and teamwork.",
+    "photographer": "Thành Đỗ",
+    "page": "https://www.pexels.com/photo/girl-in-white-t-shirt-sitting-on-chair-and-using-computer-5530450/"
+   },
+   {
+    "code": "06-training / 03",
+    "file": "06-training-03.webp",
+    "alt": "Instructor explaining SMPS voltage section diagram during AC repair course in New Delhi.",
+    "photographer": "Multitech Institute",
+    "page": "https://www.pexels.com/photo/instructor-demonstrates-smps-voltage-section-on-screen-33938507/"
+   },
+   {
+    "code": "06-training / 04",
+    "file": "06-training-04.webp",
+    "alt": "University students in a diverse classroom engaging in a discussion with their professor.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/a-class-having-a-discussion-8199134/"
+   },
+   {
+    "code": "06-training / 05",
+    "file": "06-training-05.webp",
+    "alt": "Technician engaged in AC repair at a New Delhi workshop. Indoor learning session.",
+    "photographer": "Multitech Institute",
+    "page": "https://www.pexels.com/photo/ac-repair-technician-at-work-in-new-delhi-33755641/"
+   },
+   {
+    "code": "06-training / 06",
+    "file": "06-training-06.webp",
+    "alt": "Group of Indian schoolgirls attentively listening in their classroom wearing uniforms.",
+    "photographer": "Yogendra  Singh",
+    "page": "https://www.pexels.com/photo/photograph-of-girls-in-a-classroom-3231358/"
+   },
+   {
+    "code": "06-training / 07",
+    "file": "06-training-07.webp",
+    "alt": "Man engages in air conditioner repair at New Delhi training center, surrounded by electronic components.",
+    "photographer": "Multitech Institute",
+    "page": "https://www.pexels.com/photo/ac-repair-training-at-an-institute-in-new-delhi-33958627/"
+   },
+   {
+    "code": "06-training / 08",
+    "file": "06-training-08.webp",
+    "alt": "Three diverse women engaging in teamwork on a laptop indoors.",
+    "photographer": "Antonius Ferret",
+    "page": "https://www.pexels.com/photo/women-with-laptop-5253942/"
+   },
+   {
+    "code": "06-training / 09",
+    "file": "06-training-09.webp",
+    "alt": "An electronics engineer works at the repair lab desk, surrounded by tools and a circuit board.",
+    "photographer": "Helloev Mechanic",
+    "page": "https://www.pexels.com/photo/electronics-engineer-at-work-in-repair-lab-37111316/"
+   },
+   {
+    "code": "06-training / 10",
+    "file": "06-training-10.webp",
+    "alt": "Teacher engaging adult students in a classroom discussion against a brick wall background.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/a-bearded-man-standing-with-hand-under-his-chin-5756663/"
+   },
+   {
+    "code": "06-training / 11",
+    "file": "06-training-11.webp",
+    "alt": "Group of Indian schoolgirls in uniform attentively listening in a classroom setting.",
+    "photographer": "Yogendra  Singh",
+    "page": "https://www.pexels.com/photo/photograph-of-girls-wearing-uniform-3231359/"
+   },
+   {
+    "code": "06-training / 12",
+    "file": "06-training-12.webp",
+    "alt": "Adult male teaching electronics repair at a training institute, surrounded by circuits.",
+    "photographer": "Helloev Mechanic",
+    "page": "https://www.pexels.com/photo/man-teaching-electronics-repair-in-classroom-36531836/"
+   }
+  ]
+ },
+ {
+  "slot": "07-corporate-training",
+  "purpose": "POSH, Leadership and Soft Skill training",
+  "images": [
+   {
+    "code": "07-corporate-training / 01",
+    "file": "07-corporate-training-01.webp",
+    "alt": "Team engaged in a presentation at a modern office using digital technology.",
+    "photographer": "Luis Sevilla",
+    "page": "https://www.pexels.com/photo/business-meeting-presentation-in-modern-office-34221175/"
+   },
+   {
+    "code": "07-corporate-training / 02",
+    "file": "07-corporate-training-02.webp",
+    "alt": "A group of young South Asian women working together on a laptop in a Jaipur office.",
+    "photographer": "Biyani Girls College",
+    "page": "https://www.pexels.com/photo/women-in-office-by-laptop-at-table-18067562/"
+   },
+   {
+    "code": "07-corporate-training / 03",
+    "file": "07-corporate-training-03.webp",
+    "alt": "Two businesswomen engage in a conversation during a professional meeting in a modern office.",
+    "photographer": "Vlada Karpovich",
+    "page": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/"
+   },
+   {
+    "code": "07-corporate-training / 04",
+    "file": "07-corporate-training-04.webp",
+    "alt": "Audience attentively watching a presentation in a conference setting, with stage lights and speaker visible.",
+    "photographer": "Atlantic Ambience",
+    "page": "https://www.pexels.com/photo/people-sitting-inside-the-auditorium-9275222/"
+   },
+   {
+    "code": "07-corporate-training / 05",
+    "file": "07-corporate-training-05.webp",
+    "alt": "Two Indian female workers folding fabric in a textile factory, smiling and engaged in teamwork.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/indian-textile-workers-folding-fabric-in-factory-31259217/"
+   },
+   {
+    "code": "07-corporate-training / 06",
+    "file": "07-corporate-training-06.webp",
+    "alt": "Businessman presenting a whiteboard agenda on VR training in modern office meeting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/man-in-business-attire-discussing-and-standing-in-front-of-his-colleagues-8123797/"
+   },
+   {
+    "code": "07-corporate-training / 07",
+    "file": "07-corporate-training-07.webp",
+    "alt": "A young professional engaged in an office discussion, showcasing a collaborative workspace.",
+    "photographer": "VARAN NM",
+    "page": "https://www.pexels.com/photo/man-in-blue-and-white-checkered-button-up-shirt-8721803/"
+   },
+   {
+    "code": "07-corporate-training / 08",
+    "file": "07-corporate-training-08.webp",
+    "alt": "Business professionals engaged in a strategy meeting in a contemporary office. Daytime setting.",
+    "photographer": "Vlada Karpovich",
+    "page": "https://www.pexels.com/photo/elderly-women-in-a-business-meeting-7433856/"
+   },
+   {
+    "code": "07-corporate-training / 09",
+    "file": "07-corporate-training-09.webp",
+    "alt": "Confident businessman presenting infographics on promotion and growth during a meeting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/man-presenting-in-a-meeting-9034728/"
+   },
+   {
+    "code": "07-corporate-training / 10",
+    "file": "07-corporate-training-10.webp",
+    "alt": "Indian blue-collar textile workers using computers in a factory setting.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/women-textile-workers-using-computers-in-factory-31321061/"
+   },
+   {
+    "code": "07-corporate-training / 11",
+    "file": "07-corporate-training-11.webp",
+    "alt": "Group of pensive coworkers sitting at wooden table with gadgets and documents and listening presentations of colleague drawing graph in flipchart in modern office workspace in daytime",
+    "photographer": "Anna Shvets",
+    "page": "https://www.pexels.com/photo/thoughtful-colleagues-listening-presentation-of-speaker-in-workspace-5324985/"
+   },
+   {
+    "code": "07-corporate-training / 12",
+    "file": "07-corporate-training-12.webp",
+    "alt": "Business professionals engaging in a collaborative meeting with charts and documents.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/businesspeople-brainstorming-in-a-meeting-7693692/"
+   }
+  ]
+ },
+ {
+  "slot": "08-mentoring",
+  "purpose": "Career Coaching and mentoring",
+  "images": [
+   {
+    "code": "08-mentoring / 01",
+    "file": "08-mentoring-01.webp",
+    "alt": "Two women engaged in a serious discussion in a modern office setting, highlighting communication and mental health.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/woman-in-green-long-sleeve-shirt-sitting-on-chair-9064686/"
+   },
+   {
+    "code": "08-mentoring / 02",
+    "file": "08-mentoring-02.webp",
+    "alt": "A couple in a therapy session discussing issues with a therapist in a modern office.",
+    "photographer": "World Sikh Organization of Canada",
+    "page": "https://www.pexels.com/photo/couple-talking-with-therapist-14797779/"
+   },
+   {
+    "code": "08-mentoring / 03",
+    "file": "08-mentoring-03.webp",
+    "alt": "Therapist discussing mental health with client in a supportive indoor setting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/man-and-woman-sitting-on-the-couch-9064314/"
+   },
+   {
+    "code": "08-mentoring / 04",
+    "file": "08-mentoring-04.webp",
+    "alt": "Professional women working on laptops and tablets in a modern office setting, focused on teamwork.",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/women-sitting-at-the-table-8902489/"
+   },
+   {
+    "code": "08-mentoring / 05",
+    "file": "08-mentoring-05.webp",
+    "alt": "Two businessmen engaged in a discussion during a job interview in a contemporary office environment.",
+    "photographer": "Tima Miroshnichenko",
+    "page": "https://www.pexels.com/photo/man-in-blue-dress-shirt-talking-5439447/"
+   },
+   {
+    "code": "08-mentoring / 06",
+    "file": "08-mentoring-06.webp",
+    "alt": "Two businesswomen discussing work at a cafe table with laptops and snacks in sunlight.",
+    "photographer": "Marcus Aurelius",
+    "page": "https://www.pexels.com/photo/woman-in-red-blazer-sitting-by-the-table-having-a-meeting-4063791/"
+   },
+   {
+    "code": "08-mentoring / 07",
+    "file": "08-mentoring-07.webp",
+    "alt": "Crop ethnic female psychotherapist in formal clothes writing notes in clipboard while listening to black male patient complains in light studio",
+    "photographer": "Alex Green",
+    "page": "https://www.pexels.com/photo/crop-ethnic-female-consultant-talking-to-client-and-taking-notes-5699482/"
+   },
+   {
+    "code": "08-mentoring / 08",
+    "file": "08-mentoring-08.webp",
+    "alt": "Two women having a serious conversation in an office setting against a brick wall background.",
+    "photographer": "Timur Weber",
+    "page": "https://www.pexels.com/photo/adult-woman-seriously-listening-to-the-person-wearing-white-sleeveless-shirt-8560027/"
+   },
+   {
+    "code": "08-mentoring / 09",
+    "file": "08-mentoring-09.webp",
+    "alt": "Two women collaborating at a desk in a modern office environment, discussing a project.",
+    "photographer": "LinkedIn Sales Navigator",
+    "page": "https://www.pexels.com/photo/women-talking-while-in-front-of-a-computer-3867825/"
+   },
+   {
+    "code": "08-mentoring / 10",
+    "file": "08-mentoring-10.webp",
+    "alt": "Focused ethnic female interviewer or psychotherapist asking questions and writing notes in clipboard while looking at African American male",
+    "photographer": "Alex Green",
+    "page": "https://www.pexels.com/photo/ethnic-female-psychotherapist-listening-to-black-clients-explanation-5699479/"
+   },
+   {
+    "code": "08-mentoring / 11",
+    "file": "08-mentoring-11.webp",
+    "alt": "Two women having a discussion in a colorful, modern workspace, fostering teamwork and collaboration.",
+    "photographer": "Moe Magners",
+    "page": "https://www.pexels.com/photo/woman-in-pink-shirt-sitting-beside-a-woman-in-white-blazer-7495109/"
+   },
+   {
+    "code": "08-mentoring / 12",
+    "file": "08-mentoring-12.webp",
+    "alt": "Unrecognizable female psychologist with crossed legs writing information on clipboard during appointment with anonymous ethnic patient in cozy light office",
+    "photographer": "Alex Green",
+    "page": "https://www.pexels.com/photo/crop-woman-with-clipboard-talking-with-anonymous-client-5699435/"
+   }
+  ]
+ },
+ {
+  "slot": "09-partners",
+  "purpose": "Our Partners",
+  "images": [
+   {
+    "code": "09-partners / 01",
+    "file": "09-partners-01.webp",
+    "alt": "An up-close image of two people shaking hands in a professional setting against a white background.",
+    "photographer": "Mikhail Nilov",
+    "page": "https://www.pexels.com/photo/close-up-shot-of-a-people-handshake-7736028/"
+   },
+   {
+    "code": "09-partners / 02",
+    "file": "09-partners-02.webp",
+    "alt": "Overhead view of a diverse team placing hands together in a sign of unity during a meeting.",
+    "photographer": "Thirdman",
+    "page": "https://www.pexels.com/photo/coworkers-with-their-hands-together-5256819/"
+   },
+   {
+    "code": "09-partners / 03",
+    "file": "09-partners-03.webp",
+    "alt": "Three professionals discussing business strategy in a modern conference room.",
+    "photographer": "Mikhail Nilov",
+    "page": "https://www.pexels.com/photo/professionals-on-a-conference-room-8847146/"
+   },
+   {
+    "code": "09-partners / 04",
+    "file": "09-partners-04.webp",
+    "alt": "Professional setting of a business meeting with individuals signing documents on a conference table.",
+    "photographer": "cottonbro studio",
+    "page": "https://www.pexels.com/photo/a-person-signing-a-contract-6814521/"
+   },
+   {
+    "code": "09-partners / 05",
+    "file": "09-partners-05.webp",
+    "alt": "Two businessmen in formal attire shaking hands during a meeting.",
+    "photographer": "George Morina",
+    "page": "https://www.pexels.com/photo/business-people-doing-handshake-6918529/"
+   },
+   {
+    "code": "09-partners / 06",
+    "file": "09-partners-06.webp",
+    "alt": "A multicultural team brainstorming and collaborating during a business meeting.",
+    "photographer": "Christina Morillo",
+    "page": "https://www.pexels.com/photo/group-of-people-in-conference-room-1181304/"
+   },
+   {
+    "code": "09-partners / 07",
+    "file": "09-partners-07.webp",
+    "alt": "Close-up of a man's hands signing a formal document indoors.",
+    "photographer": "Cytonn Photography",
+    "page": "https://www.pexels.com/photo/close-up-photography-of-person-writing-on-white-paper-955392/"
+   },
+   {
+    "code": "09-partners / 08",
+    "file": "09-partners-08.webp",
+    "alt": "Close-up of a handshake between colleagues in a professional office setting, emphasizing teamwork and agreement.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/close-up-shot-of-2-person-shake-hands-7792841/"
+   },
+   {
+    "code": "09-partners / 09",
+    "file": "09-partners-09.webp",
+    "alt": "A diverse team discusses strategy in a modern office setting with laptops and charts.",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/group-of-people-having-a-discussion-7876895/"
+   },
+   {
+    "code": "09-partners / 10",
+    "file": "09-partners-10.webp",
+    "alt": "Corporate professionals in a formal meeting environment, focused on teamwork and collaboration.",
+    "photographer": "Karl Solano",
+    "page": "https://www.pexels.com/photo/people-in-the-office-11045731/"
+   },
+   {
+    "code": "09-partners / 11",
+    "file": "09-partners-11.webp",
+    "alt": "Detailed view of a hand writing a signature on an official document with a ballpoint pen.",
+    "photographer": "Tima Miroshnichenko",
+    "page": "https://www.pexels.com/photo/person-signing-on-a-paper-7567600/"
+   },
+   {
+    "code": "09-partners / 12",
+    "file": "09-partners-12.webp",
+    "alt": "Crop anonymous diverse businesswomen in trendy elegant coats shaking hands after important conference on street",
+    "photographer": "Sora Shimazaki",
+    "page": "https://www.pexels.com/photo/multiracial-women-in-stylish-coats-shaking-hands-near-man-5673459/"
+   }
+  ]
+ },
+ {
+  "slot": "10-community-network",
+  "purpose": "Membership and community",
+  "images": [
+   {
+    "code": "10-community-network / 01",
+    "file": "10-community-network-01.webp",
+    "alt": "Three diverse businesswomen engaged in a collaborative meeting at a modern office space, showcasing teamwork.",
+    "photographer": "Yan Krukau",
+    "page": "https://www.pexels.com/photo/women-having-a-meeting-at-the-office-8837196/"
+   },
+   {
+    "code": "10-community-network / 02",
+    "file": "10-community-network-02.webp",
+    "alt": "Group of diverse professionals networking in a modern office setting.",
+    "photographer": "Edmond Dantès",
+    "page": "https://www.pexels.com/photo/women-talking-with-each-other-8555600/"
+   },
+   {
+    "code": "10-community-network / 03",
+    "file": "10-community-network-03.webp",
+    "alt": "Business professionals engaged in a strategy meeting in a contemporary office. Daytime setting.",
+    "photographer": "Vlada Karpovich",
+    "page": "https://www.pexels.com/photo/elderly-women-in-a-business-meeting-7433856/"
+   },
+   {
+    "code": "10-community-network / 04",
+    "file": "10-community-network-04.webp",
+    "alt": "Focused individuals attending an indoor seminar, showcasing engagement and learning.",
+    "photographer": "Matheus Bertelli",
+    "page": "https://www.pexels.com/photo/attentive-audience-at-indoor-seminar-33714910/"
+   },
+   {
+    "code": "10-community-network / 05",
+    "file": "10-community-network-05.webp",
+    "alt": "Group of women in colorful attire relaxing in a serene mountain landscape on a summer day.",
+    "photographer": "Henlynn",
+    "page": "https://www.pexels.com/photo/women-relaxing-by-ruins-13003501/"
+   },
+   {
+    "code": "10-community-network / 06",
+    "file": "10-community-network-06.webp",
+    "alt": "A diverse group gathered for a community meeting in rural Nagpur, India, discussing agriculture.",
+    "photographer": "EqualStock IN",
+    "page": "https://www.pexels.com/photo/farmers-in-india-20356942/"
+   },
+   {
+    "code": "10-community-network / 07",
+    "file": "10-community-network-07.webp",
+    "alt": "Two businesswomen engage in a conversation during a professional meeting in a modern office.",
+    "photographer": "Vlada Karpovich",
+    "page": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/"
+   },
+   {
+    "code": "10-community-network / 08",
+    "file": "10-community-network-08.webp",
+    "alt": "A group of diverse businesswomen having an interactive meeting in a modern office setting.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/a-group-of-women-discussing-about-business-7490892/"
+   },
+   {
+    "code": "10-community-network / 09",
+    "file": "10-community-network-09.webp",
+    "alt": "Vibrant Indian statues of women in traditional attire, lined up for crafting.",
+    "photographer": "Souvik  Dutta",
+    "page": "https://www.pexels.com/photo/colorful-traditional-indian-statues-in-workshop-35877141/"
+   },
+   {
+    "code": "10-community-network / 10",
+    "file": "10-community-network-10.webp",
+    "alt": "Colorful display of hands with dandiya sticks celebrating Navratri festival, showcasing Indian culture.",
+    "photographer": "Teja J",
+    "page": "https://www.pexels.com/photo/people-with-dandiya-sticks-celebrating-navratri-festival-17264037/"
+   },
+   {
+    "code": "10-community-network / 11",
+    "file": "10-community-network-11.webp",
+    "alt": "A diverse group of women coworkers smiling together in a professional office setting.",
+    "photographer": "Alena Shekhovtcova",
+    "page": "https://www.pexels.com/photo/group-of-women-office-workers-smiling-8067874/"
+   },
+   {
+    "code": "10-community-network / 12",
+    "file": "10-community-network-12.webp",
+    "alt": "Three professional women discussing ideas around a laptop in a modern office setting.",
+    "photographer": "Thirdman",
+    "page": "https://www.pexels.com/photo/women-at-the-table-with-laptop-discussing-business-8485646/"
+   }
+  ]
+ },
+ {
+  "slot": "11-events",
+  "purpose": "Events",
+  "images": [
+   {
+    "code": "11-events / 01",
+    "file": "11-events-01.webp",
+    "alt": "Audience attentively watching a presentation in a conference setting, with stage lights and speaker visible.",
+    "photographer": "Atlantic Ambience",
+    "page": "https://www.pexels.com/photo/people-sitting-inside-the-auditorium-9275222/"
+   },
+   {
+    "code": "11-events / 02",
+    "file": "11-events-02.webp",
+    "alt": "Confident woman delivering a speech to a diverse audience in a conference room.",
+    "photographer": "Mikhail Nilov",
+    "page": "https://www.pexels.com/photo/a-woman-giving-a-speech-8730787/"
+   },
+   {
+    "code": "11-events / 03",
+    "file": "11-events-03.webp",
+    "alt": "A stack of elegant framed diplomas prepared for an academic ceremony.",
+    "photographer": "Nacho Gomez",
+    "page": "https://www.pexels.com/photo/stack-of-framed-diplomas-ready-for-ceremony-37012315/"
+   },
+   {
+    "code": "11-events / 04",
+    "file": "11-events-04.webp",
+    "alt": "A diverse group of business professionals attending a presentation in a modern conference room.",
+    "photographer": "Matheus Bertelli",
+    "page": "https://www.pexels.com/photo/team-of-workers-in-meeting-15141493/"
+   },
+   {
+    "code": "11-events / 05",
+    "file": "11-events-05.webp",
+    "alt": "Businesspeople enjoying a buffet at a corporate event with diverse food options.",
+    "photographer": "Hiếu Lê",
+    "page": "https://www.pexels.com/photo/business-event-professionals-at-a-buffet-38460679/"
+   },
+   {
+    "code": "11-events / 06",
+    "file": "11-events-06.webp",
+    "alt": "Focused individuals attending an indoor seminar, showcasing engagement and learning.",
+    "photographer": "Matheus Bertelli",
+    "page": "https://www.pexels.com/photo/attentive-audience-at-indoor-seminar-33714910/"
+   },
+   {
+    "code": "11-events / 07",
+    "file": "11-events-07.webp",
+    "alt": "Diverse audience sitting in rows, attending an indoor conference or event.",
+    "photographer": "Luis Quintero",
+    "page": "https://www.pexels.com/photo/attendance-on-ceremony-15325468/"
+   },
+   {
+    "code": "11-events / 08",
+    "file": "11-events-08.webp",
+    "alt": "Woman speaking into a microphone during a business conference, engaging with audience.",
+    "photographer": "Safi Erneste",
+    "page": "https://www.pexels.com/photo/a-woman-speaking-at-a-conference-21335291/"
+   },
+   {
+    "code": "11-events / 09",
+    "file": "11-events-09.webp",
+    "alt": "Harvard Law School degree with handshake representing achievement and professional agreement.",
+    "photographer": "Pavel Danilyuk",
+    "page": "https://www.pexels.com/photo/selective-focus-photo-of-a-diploma-on-a-frame-8112119/"
+   },
+   {
+    "code": "11-events / 10",
+    "file": "11-events-10.webp",
+    "alt": "A lively business workshop engaging a diverse audience in a modern conference room.",
+    "photographer": "Matheus Bertelli",
+    "page": "https://www.pexels.com/photo/attentive-group-during-presentation-18999484/"
+   },
+   {
+    "code": "11-events / 11",
+    "file": "11-events-11.webp",
+    "alt": "Large outdoor corporate event with attendees seated in courtyard of a modern building complex.",
+    "photographer": "marclyc li",
+    "page": "https://www.pexels.com/photo/outdoor-corporate-event-at-modern-urban-venue-37887616/"
+   },
+   {
+    "code": "11-events / 12",
+    "file": "11-events-12.webp",
+    "alt": "Black and white image of women in a meeting, attentively taking notes.",
+    "photographer": "Wikii Heiwa",
+    "page": "https://www.pexels.com/photo/group-of-women-at-a-meeting-taking-notes-21986110/"
+   }
+  ]
+ },
+ {
+  "slot": "12-bengaluru",
+  "purpose": "Bengaluru — local photographs",
+  "images": [
+   {
+    "code": "12-bengaluru / 01",
+    "file": "12-bengaluru-01.webp",
+    "alt": "A stunning view of colonial architecture in Bengaluru against a dramatic sunset sky.",
+    "photographer": "Sourabh",
+    "page": "https://www.pexels.com/photo/a-white-and-beige-dome-building-under-gray-sky-13508081/"
+   },
+   {
+    "code": "12-bengaluru / 02",
+    "file": "12-bengaluru-02.webp",
+    "alt": "A bustling street market scene in Bengaluru featuring a diverse crowd and fresh produce stall.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/vibrant-street-market-in-bengaluru-india-38443570/"
+   },
+   {
+    "code": "12-bengaluru / 03",
+    "file": "12-bengaluru-03.webp",
+    "alt": "Close-up of a Brutalist building facade in New Delhi, showcasing architectural symmetry.",
+    "photographer": "Shantum Singh",
+    "page": "https://www.pexels.com/photo/brutalist-architecture-in-new-delhi-37266528/"
+   },
+   {
+    "code": "12-bengaluru / 04",
+    "file": "12-bengaluru-04.webp",
+    "alt": "A street vendor selling bananas from a cart in Bengaluru, India, surrounded by urban greenery.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/street-fruit-vendor-in-bengaluru-india-35114365/"
+   },
+   {
+    "code": "12-bengaluru / 05",
+    "file": "12-bengaluru-05.webp",
+    "alt": "City skyline with skyscrapers and trees during the day, showcasing urban architecture.",
+    "photographer": "Keith Lobo",
+    "page": "https://www.pexels.com/photo/high-rise-buildings-photo-11505497/"
+   },
+   {
+    "code": "12-bengaluru / 06",
+    "file": "12-bengaluru-06.webp",
+    "alt": "A dramatic skyline of Bengaluru with a vivid sunset highlighting tall buildings and communication towers.",
+    "photographer": "Brijesh H",
+    "page": "https://www.pexels.com/photo/architectural-silhouette-during-bengaluru-sunset-36553966/"
+   },
+   {
+    "code": "12-bengaluru / 07",
+    "file": "12-bengaluru-07.webp",
+    "alt": "Vibrant mannequins showcasing traditional Indian lehenga outfits in Bengaluru's bustling market street.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/colorful-mannequins-displaying-traditional-indian-attire-38555844/"
+   },
+   {
+    "code": "12-bengaluru / 08",
+    "file": "12-bengaluru-08.webp",
+    "alt": "A street vendor preparing coconuts in a bustling market in Bengaluru, Karnataka, India.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/street-vendor-selling-coconuts-in-bengaluru-38556054/"
+   },
+   {
+    "code": "12-bengaluru / 09",
+    "file": "12-bengaluru-09.webp",
+    "alt": "Twilight view of Mumbai's skyline showcasing tall buildings and a serene evening ambiance.",
+    "photographer": "Vitthal Dikonda",
+    "page": "https://www.pexels.com/photo/mumbai-urban-skyline-at-twilight-31713110/"
+   },
+   {
+    "code": "12-bengaluru / 10",
+    "file": "12-bengaluru-10.webp",
+    "alt": "Captivating city skyline at sunset in Bengaluru with buildings silhouetted against a vibrant sky.",
+    "photographer": "Brijesh H",
+    "page": "https://www.pexels.com/photo/dramatic-sunset-silhouette-over-bengaluru-cityscape-36553968/"
+   },
+   {
+    "code": "12-bengaluru / 11",
+    "file": "12-bengaluru-11.webp",
+    "alt": "Colorful street market scene in Bengaluru featuring ethnic garments and bustling crowd, capturing urban life.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/vibrant-street-market-in-bengaluru-india-38556274/"
+   },
+   {
+    "code": "12-bengaluru / 12",
+    "file": "12-bengaluru-12.webp",
+    "alt": "Senior woman in traditional saree sitting on a bench outdoors in Bengaluru.",
+    "photographer": "Aditya Oberai",
+    "page": "https://www.pexels.com/photo/elderly-woman-on-bench-in-bengaluru-street-35114364/"
+   }
+  ]
+ },
+ {
+  "slot": "13-texture-detail",
+  "purpose": "Small detail images between sections",
+  "images": [
+   {
+    "code": "13-texture-detail / 01",
+    "file": "13-texture-detail-01.webp",
+    "alt": "Hands holding a chisel marking paper in a close-up view, showing manual craftsmanship.",
+    "photographer": "cottonbro studio",
+    "page": "https://www.pexels.com/photo/a-person-marking-a-black-material-with-a-chisel-6654002/"
+   },
+   {
+    "code": "13-texture-detail / 02",
+    "file": "13-texture-detail-02.webp",
+    "alt": "Vibrant close-up of assorted colorful thread spools, perfect for sewing and needlework.",
+    "photographer": "syamhari syamhari",
+    "page": "https://www.pexels.com/photo/close-up-photo-of-assorted-sewing-threads-in-spools-7116999/"
+   },
+   {
+    "code": "13-texture-detail / 03",
+    "file": "13-texture-detail-03.webp",
+    "alt": "Side view closeup of opened ring bound notebook with blank pages near silver ball point pen placed on wooden table",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/opened-notebook-and-silver-pen-4195330/"
+   },
+   {
+    "code": "13-texture-detail / 04",
+    "file": "13-texture-detail-04.webp",
+    "alt": "Close-up of colorful Indian textiles showcasing traditional patterns in Jaipur, India.",
+    "photographer": "Ayyappan Ram",
+    "page": "https://www.pexels.com/photo/white-blue-and-orange-floral-textile-4566670/"
+   },
+   {
+    "code": "13-texture-detail / 05",
+    "file": "13-texture-detail-05.webp",
+    "alt": "Close-up of hands sculpting clay with precision using tools, highlighting artistic creativity.",
+    "photographer": "Berna",
+    "page": "https://www.pexels.com/photo/woman-making-in-clay-26792254/"
+   },
+   {
+    "code": "13-texture-detail / 06",
+    "file": "13-texture-detail-06.webp",
+    "alt": "Vibrant spools of sewing thread for arts and crafts projects, ideal for sewing enthusiasts.",
+    "photographer": "Gustavo Fring",
+    "page": "https://www.pexels.com/photo/colorful-threads-3984876/"
+   },
+   {
+    "code": "13-texture-detail / 07",
+    "file": "13-texture-detail-07.webp",
+    "alt": "Minimalist flat lay featuring a black notebook, pen, and plant on a white table, perfect for creatives.",
+    "photographer": "Vie Studio",
+    "page": "https://www.pexels.com/photo/black-notebook-beside-black-pen-on-white-table-8148585/"
+   },
+   {
+    "code": "13-texture-detail / 08",
+    "file": "13-texture-detail-08.webp",
+    "alt": "Top view of hands adorned with bangles resting on vibrant traditional fabrics, showcasing cultural fashion.",
+    "photographer": "RDNE Stock project",
+    "page": "https://www.pexels.com/photo/person-wearing-gold-bangles-holding-textiles-7686320/"
+   },
+   {
+    "code": "13-texture-detail / 09",
+    "file": "13-texture-detail-09.webp",
+    "alt": "Close-up of an Indian craftsman working with colorful traditional tools, showcasing artisanal skill.",
+    "photographer": "pierre matile",
+    "page": "https://www.pexels.com/photo/indian-craftsman-at-work-with-traditional-tools-36778993/"
+   },
+   {
+    "code": "13-texture-detail / 10",
+    "file": "13-texture-detail-10.webp",
+    "alt": "A set of vibrant sewing threads and bobbins on a wooden surface.",
+    "photographer": "Jahra Tasfia Reza",
+    "page": "https://www.pexels.com/photo/colorful-threads-and-bobbins-on-wooden-table-39081598/"
+   },
+   {
+    "code": "13-texture-detail / 11",
+    "file": "13-texture-detail-11.webp",
+    "alt": "A minimalist desk setup featuring a notebook, pens, mug, and stapler on a wooden table.",
+    "photographer": "https://kaboompics.com/",
+    "page": "https://www.pexels.com/photo/a-notebook-and-pens-on-the-table-8092418/"
+   },
+   {
+    "code": "13-texture-detail / 12",
+    "file": "13-texture-detail-12.webp",
+    "alt": "Colorful traditional silk fabrics from Kanchipuram, India, showcasing rich patterns and textures.",
+    "photographer": "Sharath G.",
+    "page": "https://www.pexels.com/photo/colorful-carpets-on-a-market-10317127/"
+   }
+  ]
+ }
+]
