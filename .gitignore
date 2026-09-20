@@ -25,3 +25,6 @@ candidates/
 # the image-sourcing scripts live here: needed to build the site, not part of
 # the site. Kept on disk, out of the repo.
 docs/
+
+# Temporary Wix-parity working list. Delete once the work is done.
+TODO-wix-parity.md

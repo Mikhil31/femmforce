@@ -215,7 +215,8 @@ nav.hot .nav-ind{opacity:1}
   transition:opacity .9s var(--ease) .84s,transform .9s var(--ease) .84s}
 .js body.ready .acts{opacity:1;transform:none}
 
-.btn{position:relative;overflow:hidden;padding:1rem 1.8rem;font-weight:600;
+.btn{display:inline-flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;padding:1rem 1.8rem;font-weight:600;
   font-size:.83rem;letter-spacing:.09em;text-transform:uppercase;border-radius:100px;
   border:1px solid var(--line-2);color:var(--tx);background:transparent}
 .btn span{position:relative;z-index:1;transition:color .4s var(--ease)}
