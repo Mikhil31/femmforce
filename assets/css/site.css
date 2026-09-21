@@ -244,6 +244,20 @@ nav.hot .nav-ind{opacity:1}
   letter-spacing:-.048em;max-width:19ch;text-transform:uppercase}
 .band .body{color:var(--tx-2)}
 .band .body p{max-width:50ch}
+/* Home ABOUT band: statement and text stacked on the left, photo on the right,
+   top-aligned with the statement and exactly as tall as the copy column.
+   Scoped to .band-about so the About page's own .band is untouched. */
+.band-about .cols{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:stretch}
+.band-about .stmt{font-size:clamp(1.35rem,2.5vw,2.2rem);max-width:22ch;
+  margin-bottom:clamp(22px,2.6vw,36px)}
+.band-ph-wrap{height:100%}
+.band-ph{margin:0;height:100%;min-height:340px;overflow:hidden;border-radius:16px;
+  border:1px solid var(--line);background:var(--bg-2);
+  transition:transform .7s var(--ease)}
+.band-ph img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;
+  transition:transform 1s var(--ease)}
+.band-ph:hover{transform:scale(1.025)}
+.band-ph:hover img{transform:scale(1.06)}
 
 /* ── COHORTS — colour as a hairline, never a fill ──────────────────── */
 .cohorts{border-top:1px solid var(--line)}
@@ -261,13 +275,21 @@ nav.hot .nav-ind{opacity:1}
   transition:transform .55s var(--wipe)}
 .cohort:hover::before,.cohort:focus-visible::before{transform:scaleY(1)}
 .cohort .row{position:relative;z-index:1;display:grid;
-  grid-template-columns:2.6rem 54px minmax(0,1fr) minmax(0,1.3fr) auto;
+  grid-template-columns:2.6rem clamp(140px,13vw,200px) minmax(0,1fr) minmax(0,1.3fr) auto;
   gap:clamp(14px,2.6vw,40px);align-items:center;padding:clamp(28px,3.6vw,48px) 0;
   transition:padding-left .55s var(--ease)}
 .cohort:hover .row{padding-left:clamp(14px,2.2vw,32px)}
 .cohort .idx{font-size:.72rem;font-weight:600;letter-spacing:.14em;color:var(--tx-3);
   transition:color .45s var(--ease)}
 .cohort:hover .idx{color:var(--c)}
+/* the cohort hue arrives as the frame's hairline on hover, never as a fill */
+.cohort .ph{display:block;aspect-ratio:4/3;overflow:hidden;border-radius:12px;
+  border:1px solid var(--line);background:var(--bg-2);
+  transition:border-color .45s var(--ease)}
+.cohort .ph img{width:100%;height:100%;object-fit:cover;
+  transition:transform .9s var(--ease)}
+.cohort:hover .ph{border-color:var(--c)}
+.cohort:hover .ph img{transform:scale(1.06)}
 .shards{width:54px;height:42px;position:relative}
 .shards i{position:absolute;inset:0;background:var(--tx-3);
   transition:transform .6s var(--ease),background .45s var(--ease)}
@@ -365,6 +387,11 @@ nav.hot .nav-ind{opacity:1}
   transition:transform .9s var(--wipe) var(--d)}
 .people article.in::before{transform:scaleX(1)}
 .people h3{font-size:1.16rem}
+/* trustee portraits: head-and-shoulders, 4:5, same corner and hairline as the
+   site's other photographs. Capped at 240px — the client's originals are ~300px. */
+.people .face{display:block;width:min(100%,240px);height:auto;aspect-ratio:4/5;
+  object-fit:cover;object-position:50% 25%;border-radius:14px;
+  border:1px solid var(--line);background:var(--bg-2);margin-bottom:1.3rem}
 .people .role{font-size:.7rem;font-weight:600;color:var(--verm-lift);letter-spacing:.16em;
   text-transform:uppercase;margin:.6rem 0 1.1rem}
 .people p{font-size:.9rem;color:var(--tx-2)}
@@ -427,8 +454,9 @@ footer a:hover{color:var(--tx);padding-left:6px}
   .nav-cta{margin-left:auto;padding:.6rem 1.1rem;font-size:.8rem}
   .band .cols,.two,.people,.fgrid{grid-template-columns:1fr}
   .facts{grid-template-columns:1fr 1fr}
-  .cohort .row{grid-template-columns:2.2rem 1fr auto;
-    grid-template-areas:"idx head ring" "idx who ring" ". desc desc";gap:6px 16px}
+  .cohort .row{grid-template-columns:2.2rem clamp(88px,22vw,140px) 1fr auto;
+    grid-template-areas:"idx ph head ring" "idx ph who ring" ". desc desc desc";gap:6px 16px}
+  .cohort .ph{grid-area:ph;align-self:start}
   .cohort .idx{grid-area:idx;align-self:start;padding-top:.4rem}
   .shards{display:none}
   .cohort h3{grid-area:head} .cohort .who{grid-area:who}
@@ -452,6 +480,21 @@ footer a:hover{color:var(--tx);padding-left:6px}
   .burger{margin-left:auto}       /* nothing left to push it right */
 }
 .nav-mob-cta{display:none}
+@media (max-width:1080px){
+  .band-about .cols{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+}
+@media (max-width:820px){
+  .band-about .cols{grid-template-columns:1fr}
+  .band-ph{height:auto;min-height:0;aspect-ratio:16/10}
+  .band-about .stmt{max-width:26ch}
+}
+/* phones: the thumbnail beside the heading squeezed the title to ~110px, so the
+   photo drops to its own full-width row under the title instead */
+@media (max-width:560px){
+  .cohort .row{grid-template-columns:2.2rem 1fr auto;
+    grid-template-areas:"idx head ring" "idx who ring" ". ph ph" ". desc desc"}
+  .cohort .ph{aspect-ratio:16/9;margin-top:.9rem;border-radius:10px}
+}
 @media (max-width:1080px){
   .nav-mob-cta{display:block;margin-top:1.4rem;padding:.9rem 1.2rem;text-align:center;
     border-radius:100px;background:var(--tx);color:var(--bg);font-weight:600;

@@ -3,11 +3,17 @@
 Everything here is generated from `femmforce-bird.svg`, the master vector traced
 from the client's own artwork. Nothing is hand-drawn.
 
-To change the mark, edit the trace and re-run both scripts in order:
+The scripts that produced these files (`trace_logo.py`, `build_assets.py`,
+`add_logo_to_docx.py`), the source PNG, the preview images and the superseded
+first attempt live in `docs/brand-tooling/` — on disk, out of the repo, like the
+rest of `docs/`. They are one-off tools: the outputs here are final and the site
+never runs them.
+
+To change the mark, copy them back into this folder and run in order:
 
 ```bash
-python trace_logo.py     # source PNG  ->  femmforce-bird.svg
-python build_assets.py   # master SVG  ->  every asset below
+python trace_logo.py     # source-logo.png  ->  femmforce-bird.svg
+python build_assets.py   # master SVG       ->  every asset below
 ```
 
 ## Colour
